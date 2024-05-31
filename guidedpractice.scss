@@ -1,0 +1,41 @@
+$primary: #0074d9;
+$secondary: #ff4136;
+$prime-color: yellow;
+button:active{
+    @if $prime-color == yellow {
+    background-color: green;
+    color: black;
+}
+@else {
+    background-color: $prime-color;
+    color: black;
+}
+}
+
+$button-color: #db1eac;
+$button-padding: 30px 10px;
+.button_sample {
+  background-color: $button-color;
+  border-radius: 2px;
+  color: #f09f9f;
+  padding: $button-padding;
+  
+  &:hover {
+    background-color: darken($button-color, 20%);
+  }
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+
+.nav li {
+margin: 10px;
+padding: 10px;
+border: 40px solid #ccc;
+border-radius: 1px;
+}
