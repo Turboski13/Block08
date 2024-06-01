@@ -1,53 +1,56 @@
 body {
-    background-image: url('https://imgs.search.brave.com/RrbVXqXc8zeGN1iH761-Z9Y4dcVHqDGktXrrBB7sETE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDU3/NzQyNDcxL3Bob3Rv/L29sZC1saWJyYXJ5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1STmlfQmVLbjNW/Y1ZUSXc1R3FXWkhK/cXo3RmFuNEFhNWs3/cFlNYzF0ZWRzPQ');
-  }
-div {
-    size: 20px;
-    border-radius: 2px;
-        width: 30%;
-        border: 5px solid rgb(31, 37, 31);
-        padding: 10px;
-        margin: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 300px;
-        background-color: antiquewhite;
-       
-}
-h1 {
-    color: rgb(187, 24, 24);
-    border-radius: 2px;
-    background-color: beige;
-    align-content: center;
-    align-items: center;
+  background-image: url("https://imgs.search.brave.com/RrbVXqXc8zeGN1iH761-Z9Y4dcVHqDGktXrrBB7sETE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDU3/NzQyNDcxL3Bob3Rv/L29sZC1saWJyYXJ5/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1STmlfQmVLbjNW/Y1ZUSXc1R3FXWkhK/cXo3RmFuNEFhNWs3/cFlNYzF0ZWRzPQ");
 }
 
-h2{
-    color: rgb(173, 121, 23);
-    background-color: aqua;
-    border-radius: 5px;
-    align-content: center;
-    align-items: center;
+div {
+  size: 20px;
+  border-radius: 2px;
+  width: 30%;
+  border: 5px solid rgb(31, 37, 31);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: antiquewhite;
+}
+
+h1 {
+  color: rgb(187, 24, 24);
+  border-radius: 2px;
+  background-color: beige;
+  align-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(173, 121, 23);
+  background-color: aqua;
+  border-radius: 5px;
+  align-content: center;
+  align-items: center;
 }
 
 h3 {
-    color: #58110b;
-    background-color: aquamarine;
-    border-radius: 3px;
-    align-content: center;
-    align-items: center;
+  color: #58110b;
+  background-color: aquamarine;
+  border-radius: 3px;
+  align-content: center;
+  align-items: center;
 }
-  
+
 img {
-    max-height: 80%;
-    max-width: 50%;
+  max-height: 80%;
+  max-width: 50%;
 }
 
 .nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #f1f1f1;
 }
+
+/*# sourceMappingURL=style.css.map */
